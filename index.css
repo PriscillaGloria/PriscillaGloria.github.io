@@ -1,0 +1,35 @@
+*{
+    font-family: font-family: 'Kalam', cursive;
+    font-family: 'Beth Ellen', cursive;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+body{
+    background-image: url(https://static8.depositphotos.com/1000401/879/i/950/depositphotos_8790796-stock-photo-old-yellow-brown-vintage-parchment.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    list-style: inside;
+}
+#grid{
+    display: inline-table;
+}
+td{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+button{
+    font-size: 15px;
+    background-color: #E23F26;
+}
+
+li{
+    font-size: 20px
+}

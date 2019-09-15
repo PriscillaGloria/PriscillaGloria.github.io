@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt Game</title>
+        <link rel="shortcut icon" href="https://live.staticflickr.com/2789/4101197335_81e940967a_b.jpg">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Kalam&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id='top'>Treasure Hunt!</h1>
+        <img src="https://www.goodfreephotos.com/albums/vector-images/treasure-chest-vector-art.png" alt="Treasure_Chest" style="height:200px">
+        <h2>Rules:</h3>
+        <ol>
+            <li>You have 5 chances to find the treasure.</li>
+            <li>Click on a green X to begin.</li>
+            <li>Good luck!</li>
+        </ol>
+        <h2 id='myCounter'>Counter: 5</h2>
+        <div id="grid">
+            <table style="width: 500px; height: 400px;" id='table';>
+                <tr>
+                    <td id= '0' onclick = 'rainbowTreasure(0)'><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                    <td id = '1'  onclick = "rainbowTreasure(1)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                    <td id = '2'  onclick = "rainbowTreasure(2)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                </tr>
+                <tr>
+                    <td id = '3'  onclick = "rainbowTreasure(3)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                    <td id = '4'  onclick = "rainbowTreasure(4)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                    <td id = '5'  onclick = "rainbowTreasure(5)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                </tr>
+                <tr>
+                    <td id = '6'  onclick = "rainbowTreasure(6)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                    <td id = '7'  onclick = "rainbowTreasure(7)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                    <td id = '8'  onclick = "rainbowTreasure(8)"><img src="http://i1.wp.com/clipartportal.com/wp-content/uploads/2018/12/treasure-map-x-clipart-1-300x200.png" alt="big x" style="width:100px"> </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <button type="button" onclick = 'location.reload()' >RESTART</button>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <a href="#top">Back to Top</a>
+            <br>
+            <a href="https://en.wikipedia.org/wiki/Treasure_map" target="_blank">How to find Treasure!</a>
+            <br>
+            Created by: Kalvin Priscilla
+        </footer>
+        <script type="text/javascript" src="Treasure-hunt.js"></script>
+    </body>
+</html>
